@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13606816264490" configfile="/JSF_JPA/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="register" x="356" y="207" id="pf13606847764811" outlinks="pf13606847764822 pf13606847764823" inlinks="pf13606847764822" path="/register.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="success" x="514" y="239" id="pf13606847764824" inlinks="pf13606847764823" path="/success.jsp"/>
+  <links id="pf13606847764822" target="pf13606847764811" source="pf13606847764811" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf13606847764823" target="pf13606847764824" source="pf13606847764811" outcome="success"/>
+</pageflow:Pageflow>
